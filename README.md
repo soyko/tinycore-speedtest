@@ -2,7 +2,7 @@
 Speedtest.net setup in base TinyCore
 
 There are times when I need to do something inside of a base tinycore instance for work where I don't have speedtest available.
-I'm told to user iperf, but it's not the best.
+I'm told to use iperf, but it's not the best beacuse the carrier doesn't always give us a server to test against.
 
 Made this so I can just have a one stop shop to use this as needed.
 
