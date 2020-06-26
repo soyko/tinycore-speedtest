@@ -9,4 +9,4 @@ tar zxvf speedtest.tgz
 # Make /etc/ssl/certs folder as root on the install.
 sudo mkdir -p /etc/ssl/certs
 # Download ssl certificates so speedtest.net app can run, saving the file as ca-certificates.crt inside of the above created folder.
-wget -O /etc/ssl/certs/ca-certificates.crt https://curl.haxx.se/ca/cacert.pem
+sudo wget -O /etc/ssl/certs/ca-certificates.crt https://curl.haxx.se/ca/cacert.pem
